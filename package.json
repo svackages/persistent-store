@@ -1,6 +1,6 @@
 {
-  "name": "persistant-store",
-  "version": "1.0.0",
+  "name": "@svackages/persistant-store",
+  "version": "1.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",

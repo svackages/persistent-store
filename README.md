@@ -1,4 +1,4 @@
-![svackages logo](./logo.png)
+![svackages logo](https://raw.githubusercontent.com/svackages/persitstant-store/main/logo.png)
 # persistant typed store
 This package allows you to persist your store through localstorage.
 
