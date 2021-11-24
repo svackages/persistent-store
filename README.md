@@ -1,3 +1,4 @@
+![svackages logo](./logo.png)
 # persistant typed store
 This package allows you to persist your store through localstorage.
 
