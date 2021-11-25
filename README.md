@@ -1,11 +1,11 @@
-![svackages logo](https://raw.githubusercontent.com/svackages/persitstant-store/main/logo.png)
-# persistant typed store
+![svackages logo](https://raw.githubusercontent.com/svackages/persistent-store/main/logo.png)
+# persistent typed store
 This package allows you to persist your store through localstorage.
 
 ## basic usage
 Typescript
 ```typescript
-const myPersistantStore = persistantStore<SomeType>({
+const myPersistentStore = persistentStore<SomeType>({
     key: 'fancyKey',
     initValue: null,
 });
@@ -13,7 +13,7 @@ const myPersistantStore = persistantStore<SomeType>({
 
 JavaScript
 ```javascript
-const myPersistantStore = persistantStore({
+const myPersistentStore = persistentStore({
     key: 'fancyKey',
     initValue: null,
 });
@@ -22,10 +22,10 @@ const myPersistantStore = persistantStore({
 ## clear out localstorage
 ```javascript
 // in .svelte
-$myPersistantStore = null; // undefined will work as well
+$myPersistentStore = null; // undefined will work as well
 
 // in .ts/.js
-myPersistantStore.set(null); // undefined will work as well
+myPersistentStore.set(null); // undefined will work as well
 ```
 
 ## optional params
