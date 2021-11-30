@@ -1,4 +1,7 @@
 ![svackages logo](https://raw.githubusercontent.com/svackages/persistent-store/main/logo.png)
+
+![npm version](https://img.shields.io/npm/v/@svackages/persistent-store)
+![license](https://img.shields.io/github/license/svackages/persistent-store)
 # persistent typed store
 This package allows you to persist your store through localstorage.
 
